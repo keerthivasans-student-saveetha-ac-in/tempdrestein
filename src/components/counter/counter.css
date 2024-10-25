@@ -1,0 +1,72 @@
+.counter {
+  width: 100%;
+}
+
+.counter-row {
+  width: 80%;
+  margin-inline: auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.counter-fun{
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 10vw;
+    width: 13vw;
+  }
+  font-size: 5vw;
+  width: 7vw;
+ 
+  background: transparent;
+  box-shadow: 0 4px 30px rgba(210, 237, 3, 0.752);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgb(213, 190, 20);
+  border-radius: 1rem;
+}
+.counter-column {
+  font-family: "Monterrat";
+  flex-grow: 1;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.counter-column .number {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+.counter-column span {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .counter{
+  margin-bottom: 2rem;
+  }
+  .counter-row {
+    width: 100%;
+   grid-template-columns: 1fr 1fr;
+  }
+  .counter-column .number{
+    font-size: 2.5rem;
+  }
+  .counter-column{
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .counter-column span {
+    font-size: 1rem;
+  }
+}
