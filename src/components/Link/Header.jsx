@@ -221,7 +221,7 @@ function Main() {
             endAtZero
             endAt={"2024-11-09 01:26:58"}
           /> */}
-          <div className="MainHeaderDate"> 08th & 09th</div>
+          {/* <div className="MainHeaderDate"> 09th & 10th</div> */}
         </Timer>
       </HeaderBg>
       <Link to="/events">

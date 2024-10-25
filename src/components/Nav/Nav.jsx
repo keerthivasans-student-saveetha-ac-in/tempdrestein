@@ -80,7 +80,7 @@ const EventLogo = styled.div`
 `;
 const DresteinLetter = styled.p`
   font-size: 2.2vw;
-  font-family: "Azonix", sans-serif;
+  font-family: "x", sans-serif;
   letter-spacing: 1.5px;
   color: rgb(255, 255, 255);
   align-self: center;
@@ -106,7 +106,7 @@ const DresteinLetter = styled.p`
 
 const Year = styled.p`
   font-size: 1vw;
-  font-family: "Azonix", sans-serif;
+  font-family: "x", sans-serif;
   font-weight: 800;
   color: rgb(255, 255, 255);
   text-align: center;

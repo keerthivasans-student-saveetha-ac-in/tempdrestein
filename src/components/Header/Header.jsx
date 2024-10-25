@@ -229,11 +229,11 @@ function Main() {
           <HoverSpan className="span_btn">REGISTRATION COMING SOON...</HoverSpan>
         </RegisterNow>
       </Link>
-      <Link to="/events">
+      {/* <Link to="/events">
         <RegisterNow className="button">
           <HoverSpan className="span_btn">visit events</HoverSpan>
         </RegisterNow>
-      </Link>
+      </Link> */}
     </MainHeader>
   );
 }

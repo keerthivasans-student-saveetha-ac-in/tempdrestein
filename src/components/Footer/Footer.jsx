@@ -50,13 +50,25 @@ const Footer = () => {
   `;
   const DresteinLetter = styled.p`
     font-size: 2.2vw;
-    font-family: Azonix, sans-serif;
+    font-family: "x", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
     @media screen and (max-width: 600px) {
       font-size: 7vw;
     }
   `;
+
+  // const Year = styled.p`
+  //   font-size: 1vw;
+  //   font-family: Montserrat, sans-serif;
+  //   font-weight: 800;
+  //   color: rgb(255, 255, 255);
+  //   text-align: center;
+  //   height: auto;
+  //   letter-spacing: 0.8em;
+  //   @media screen and (max-width: 600px) {
+  //     font-size: 3vw;
+  //   }
 
   const Year = styled.p`
     font-size: 1vw;
@@ -87,7 +99,7 @@ const Footer = () => {
           </div>
           <p
             style={{
-              margin: "8px 0",
+              margin: "10px 0",
             }}
           >
            <h4 className="heading" align="center">Site Views</h4>
@@ -104,12 +116,11 @@ const Footer = () => {
             <h1>{views}</h1>
             <VisibilityIcon
               sx={{
-                fontSize: "50px",
+                fontSize: "40px",
               }}
             />
           </Card>
         </div>
-        
         <div className="block">
           <h4 className="heading" align="center">CO-ORDINATORS</h4>
           <a href="https://www.saveetha.ac.in/index.php/2-uncategorised/489-dr-k-suresh-kumar-m-tech-ph-d"  target="_blank" class="links">
@@ -125,15 +136,13 @@ const Footer = () => {
                   borderRadius: "50%",
                   objectFit: "cover",
                 }}
-                // src="PeopleAssets/co1.webp"
-                src="PeopleAssets/coordinators/co1 (white).webp"
+                src="PeopleAssets/co1.webp"
               />
             }
           >
             Dr. K. SURESH KUMAR
           </Chip>
           </a>
-
           <a href="https://www.saveetha.ac.in/index.php/departments/mechanical-engineering?id=661"  target="_blank" class="links">
           <Chip
             size="lg"
@@ -147,28 +156,26 @@ const Footer = () => {
                   borderRadius: "50%",
                   objectFit: "cover",
                 }}
-                // src="PeopleAssets/co2.webp"
-                src="PeopleAssets/coordinators/co2 (white).webp"
+                src="PeopleAssets/co2.webp"
               />
             }
           >
           Dr. N. RAJA RAJESWARI
           </Chip>
           </a>
-          
           <h4
             className="heading"
             style={{ marginTop: "2rem", marginBottom: "1rem" }} align="center"
           >
             WEBSITE CO-ORDINATORS
           </h4>
-
           <a href="https://www.linkedin.com/in/sugavarathan-l-400a46256/"  target="_blank" class="links">
           <Chip
             size="lg"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
-              <Avatar size="sm" src={`PeopleAssets/webcoordinators/webco1 (white).png`} />
+              // <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+              <Avatar size="sm" src={`PeopleAssets/webco1 (white).png`} />
             }
             >
             SUGAVARATHAN L
@@ -180,7 +187,8 @@ const Footer = () => {
             size="lg"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
-              <Avatar size="sm" src={`PeopleAssets/webcoordinators/webco2 (white).jpg`} />
+              // <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+              <Avatar size="sm" src={`PeopleAssets/webco2 (white).jpg`} />
             }
             >
              KEERTHIVASAN S
@@ -192,7 +200,8 @@ const Footer = () => {
             size="lg"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
-              <Avatar size="sm" src={`PeopleAssets/webcoordinators/webco3 (white).jpg`} />
+              // <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+              <Avatar size="sm" src={`PeopleAssets/webco3 (white).jpg`} />
             }
             >
             ROOP SAGAR S L
@@ -204,142 +213,196 @@ const Footer = () => {
             size="lg"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
-              <Avatar size="sm" src={`PeopleAssets/webcoordinators/webco4 (white).png`} />
+              // <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+              <Avatar size="sm" src={`PeopleAssets/webco4 (white).png`} />
             }
             >
             DIVYA DHARSHINI R
           </Chip>
           </a>
 
-          <a href="https://www.linkedin.com/in/tanessha-kannan-1bbab92a6/"  target="_blank" class="links">
+          {/*<a href="https://www.linkedin.com/in/vishwa-raja-a59825210/"   target="_blank"class="links"> 
           <Chip
-            size="lg"
+            size="md"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
-              <Avatar size="sm" src={`PeopleAssets/webcoordinators/webco5 (white).jpg`} />
+              <Avatar size="sm" src={'/static/images/avatar/1.jpg'} />
             }
-            >
-            TANEESHA KANNAN
+            > 
+             VISHWARAJA R
           </Chip>
           </a>
-
+          <a href="https://www.linkedin.com/in/itz-akash/"  target="_blank" class="links">
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            AKASH A
+          </Chip>
+          </a>
+          <a href="https://www.linkedin.com/in/vijayaragavan-arr/"  target="_blank" class="links">
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Vijayaragavan ARR
+          </Chip>
+          </a> */}
         </div>
-        
 
         <div className="block">
         <h4 className="heading" align="center" >DSC MEMBERS</h4>
-        
         <Chip
-            size="lg"
+            size="md"
             style={{ backgroundColor: "transparent" }}
             startDecorator={
               <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
             }
             >
-            ALMA JOECIN E (AGRI) - 7305894860
-        </Chip>
-        
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            NARENDAR N (AGRI) - 7418034369
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            BALASABARISH K J (BIO - MED) - 7845976785
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            DHANUSH S (CHEM) - 8637432631
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            GEOFFREY MICHAEL G (EIE) - 8940107410
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            VISAKAN G (MECH) - 7094998410
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            GOWTHAM I K (MED) - 8778508044
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            ANN BLESSY PHILIPS (SCOFT) - 6369544215
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-              // <Avatar size="sm" src={`PeopleAssets/dscmembers/dsc1.webp`} />
-            }
-            >
-            YAMUNAASRI T S (SCOFT) - 9884497722
-        </Chip>
-  
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            SHYAM S (SCOFT) - 6381519904
-        </Chip>
-
-        <Chip
-            size="lg"
-            style={{ backgroundColor: "transparent" }}
-            startDecorator={
-              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
-            }
-            >
-            TEJUSVE KABEER F (SCOFT) - 9600139114
-        </Chip>
+            ABCD (DEPT) - 1234
+          </Chip>
           
+          {/* <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Vijayaragavan ARR  (AI&DS) 9443654516
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Naveen Kumar A 	(AI&ML) 8925252883
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            H.S Dhanush 	(BIO-MED) 9789058816
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Muhundhan M	(CIVIL) 9791389479
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            R.Pavankumar	(Agri) 6383494421
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Srikanth T	(CHEMICAL) 6382979534
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            KISHORE.N	(CSE) 9894801443
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            R.Jayamani (Cyber) 9962244445
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Jessica.J	(ECE) 9345337659
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Yeshwanth V	(EIE) 9342019960
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Shanthini.S	(IT) 9025278040
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+            Angappan.R	(MED) 9025864979
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Kiran raaj k.v	(MECH) 9789994338
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Amudhan. E. K 	(MBA) 7358736824
+          </Chip>
+          <Chip
+            size="md"
+            style={{ backgroundColor: "transparent" }}
+            startDecorator={
+              <Avatar size="sm" src={`/static/images/avatar/1.jpg`} />
+            }
+            >
+           Balaji	(EEE) 9345992270
+          </Chip> */}
         </div>
         
         <div className="block">
@@ -347,19 +410,18 @@ const Footer = () => {
           <a href="#" className="links">
             Home
           </a>
-          
           <a href="/Departments#" className="links">
             Departments
           </a>
-
-          <Link to="/form.jsx" className="links">
+          <Link to="/form" className="links">
             Register
           </Link>
-          
           <Link to="/form" className="links">
             Events
           </Link>
-          
+          {/* <a href="#" className="links">
+            Privacy Policy
+          </a> */}
           <h4
             className="heading"
             style={{ marginTop: "2rem", marginBottom: "1rem" }}
@@ -367,53 +429,46 @@ const Footer = () => {
             SOCIALS
           </h4>
           <div class="social-links">
-            
             <a
-              target="_blank" 
+              target="_blank"
+              href="https://m.facebook.com/story.php?story_fbid=pfbid0Dg1DrcX8xcWc4zXLjVjE9Bka8G6U3sqeLj3hNfFnZP8UZnSUqrwQgqgyGfDf3LkAl&id=61552576827758&sfnsn=wiwspwa&mibextid=RUbZ1f"
+            >
+              <FaFacebook />
+            </a>
+            <a target="_blank" href="https://twitter.com/drestein_in/status/1714284030588600527?t=tzQKp_5pV5pFIOh_iw6W3w&s=08">
+              <FaTwitter />
+            </a>
+            <a
+              target="_blank"
               href="https://www.instagram.com/dresteinofficial/"
             >
               <FaInstagram />
             </a>
-            
             <a
               target="_blank"
-              href="https://www.facebook.com/profile.php?id=61567521531098"
-            >
-              <FaFacebook />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/dresteinofficial"
+              href="https://www.linkedin.com/in/drestein-in-93a163297/"
             >
               <FaLinkedinIn />
             </a>
-
-            <a target="_blank" href="https://x.com/dresteinoffi/">
-              <FaTwitter />
-            </a>
-
             <a
               target="_blank"
               href="https://in.pinterest.com/saveethaengineering/"
             >
               <FaPinterest />
             </a>
-
           </div>
         </div>
-
         <div className="block">
           <h4 className="heading">LOCATION</h4>
           <p className="address">
             Saveetha Nagar, Sriperumbadur Taluk, Kanchipuram - Chennai Rd,
-            Chennai, Tamil Nadu - 602 105.
+            Chennai, Tamil Nadu 602105
           </p>
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe
                 style={{
-                  borderRadius: "20px",
+                  borderRadius: "10px",
                 }}
                 class="gmap_iframe"
                 width="100%"
@@ -421,13 +476,16 @@ const Footer = () => {
                 scrolling="no"
                 marginHeight="0"
                 marginWidth="0"
+                // src="https://maps.google.com/maps?width=250&amp;height=250&amp;hl=en&amp;q=Saveetha engineering college&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 src="https://maps.google.com/maps?width=250&height=250&hl=en&q=New%20SEC%20Campus&t=&z=19&ie=UTF8&iwloc=B&output=embed"
               ></iframe>
             </div>
           </div>
         </div>
       </div>
-
+      {/* <div className="copyright">
+        Copyright © Saveetha Engineering College, Powered by Drestein 2024.
+      </div> */}
       <div className="copyright">
         Copyright © Drestein 2024 - Saveetha Engineering College. All rights reserved
       </div>

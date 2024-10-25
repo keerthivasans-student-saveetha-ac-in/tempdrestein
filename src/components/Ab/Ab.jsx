@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Nav from "../Nav/Nav";
-// import Gallery2022 from "./components/Gallery/Gallery2022";
 import Footer from "../Footer/Footer";
 
 
@@ -93,7 +92,7 @@ const Ab = () => {
     padding: 1rem;
     margin: 1rem;
   `;
-  
+
   const Descardhead = styled.span`
     font-weight: bold;
   `;
